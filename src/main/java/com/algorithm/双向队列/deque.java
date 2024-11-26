@@ -7,7 +7,7 @@ public class deque {
 
     public static void main(String[] args) {
 
-        /* 初始化双向队列 */
+        /* 初始化双向队列1 */
         Deque<Integer> deque = new LinkedList<>();
 
         /* 元素入队 */
