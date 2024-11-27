@@ -39,7 +39,7 @@ public class snakeGame extends JPanel implements ActionListener {
     private Image apple;
     private Image head;
 
-    public SnakeGame() {
+    public snakeGame() {
         initBoard();
     }
 
@@ -218,7 +218,7 @@ public class snakeGame extends JPanel implements ActionListener {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.add(new SnakeGame());
+        frame.add(new snakeGame());
         frame.setTitle("Snake Game");
         frame.pack();
         frame.setVisible(true);
